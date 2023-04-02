@@ -1,0 +1,12 @@
+Source: uvm
+Section: misc
+Priority: optional
+Maintainer: Your Name <your.email@example.com>
+Build-Depends: debhelper (>=11), python3, dh-virtualenv
+Standards-Version: 4.1.3
+
+Package: uvm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, docker.io
+Description: Ubuntu Version Manager
+ A command-line tool for managing multiple Ubuntu versions using Docker containers.
